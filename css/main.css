@@ -144,6 +144,19 @@ ul{
     display: block;
     transition: all 0.3s ease;
 }
+table, th,td{
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 27%;
+}
+th{
+    background-color: gainsboro;
+}
+.grp{
+    margin: 40px;
+    text-align: center;
+}
+
 .footer-col ul li a:hover{
     color: #ffffff;
     padding-left: 8px;
@@ -188,6 +201,9 @@ ul{
     .navbar h1, h2{
         margin: 12px;
     }
+    table{
+        margin: 4px;
+    }
     .brand{
        justify-content: center;
     }
@@ -205,24 +221,10 @@ ul{
     .chop2 h1, h2{
         margin: 4px;
     }
-    table{
-        margin: 4px;
-    }
+
  }
 }
-table, th,td{
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 10px;
-    margin-left: 27%;
-}
-th{
-    background-color: gainsboro;
-}
-.grp{
-    margin: 40px;
-    text-align: center;
-}
+
 
 
 
